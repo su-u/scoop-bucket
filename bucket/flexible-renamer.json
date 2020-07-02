@@ -10,5 +10,10 @@
             "Flexible Renamer.exe",
             "Flexible Renamer"
         ]
-    ]
+    ],
+    "installer": {
+        "script": [
+            "Rename-Item uc -newName uc.zip"
+        ]
+    }
 }
